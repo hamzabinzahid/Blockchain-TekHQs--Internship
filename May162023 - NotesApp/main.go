@@ -34,5 +34,8 @@ func main() {
 		}
 
 		notes.DeleteNote(os.Args[2])
+	default:
+		color.Red("Invalid Operation")
+		color.Red("Usage: go run main.go [add|list|delete] [arguments...]")
 	}
 }

@@ -90,4 +90,5 @@ func DeleteNote(title string) {
 
 	// Save the updated notes back to the file
 	SaveNotes(updatedNotes)
+	color.Green("Note deleted successfully")
 }
