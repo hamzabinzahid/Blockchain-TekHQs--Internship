@@ -1,0 +1,1 @@
+In this folder, we have practices for multiple advanced topics in golang for concurrency i.e. goroutines, mutex, waitgroups, select and channels
